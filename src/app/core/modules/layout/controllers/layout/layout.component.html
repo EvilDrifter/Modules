@@ -1,7 +1,15 @@
 <ng-container>
     <app-header></app-header>
   
-    <app-side-nav></app-side-nav>
+    <mat-sidenav-container class="example-container">
+
+        <mat-sidenav mode="side" opened class="example-sidenav">Sidenav content</mat-sidenav>
+
+        <mat-sidenav-content>
+            <ng-content select="router-outlet"></ng-content>
+        </mat-sidenav-content>
+
+    </mat-sidenav-container>
   
     <app-footer></app-footer>
 </ng-container>
