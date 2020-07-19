@@ -12,6 +12,11 @@ const routes: Routes = [{
       path: 'commerce',
       component: CommerceComponent,
     },
+    {
+      path: '',
+      redirectTo: 'commerce',
+      pathMatch: 'full',
+    },
   ],
 }];
 
