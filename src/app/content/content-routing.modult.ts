@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { ContentComponent } from './content.component';
 import { CommerceComponent } from './commerce/commerce.component';
+import { ProductDescriptionComponent } from './product-description/product-description.component';
 
 const routes: Routes = [{
   path: '',
@@ -11,6 +12,10 @@ const routes: Routes = [{
     {
       path: 'commerce',
       component: CommerceComponent,
+    },
+    {
+      path: 'description',
+      component: ProductDescriptionComponent,
     },
     {
       path: '',

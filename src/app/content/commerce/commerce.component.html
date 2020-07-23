@@ -1,1 +1,5 @@
-<p>CommerceWorks</p>
+<div class="flexbox-container">
+    <div *ngFor='let ap of apartments'>
+        <app-product-item [info]=ap></app-product-item>
+    </div>
+</div>
