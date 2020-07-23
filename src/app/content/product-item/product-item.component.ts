@@ -17,6 +17,6 @@ export class ProductItemComponent implements OnInit {
   }
 
   NavigateToDescription() {
-    this.router.navigateByUrl('/description');
+    this.router.navigateByUrl(`/pages/description/${this.info.Id}`);
   }
 }

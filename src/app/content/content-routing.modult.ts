@@ -14,7 +14,7 @@ const routes: Routes = [{
       component: CommerceComponent,
     },
     {
-      path: 'description',
+      path: 'description/:id',
       component: ProductDescriptionComponent,
     },
     {

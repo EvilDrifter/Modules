@@ -10,6 +10,6 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button [routerLink]="'/pages/description'">Open for {{ info.Price }}</button>
+      <button mat-button (click)="NavigateToDescription()">Open for {{ info.Price }}</button>
     </mat-card-actions>
 </mat-card>
