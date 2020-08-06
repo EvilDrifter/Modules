@@ -8,12 +8,19 @@ import { MaterialModule } from './core/modules/material/material.module';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MenuhouseComponent } from './components/menuhouse/menuhouse.component';
+import { MenuflatComponent } from './components/menuflat/menuflat.component';
+import { MenutownhouseComponent } from './components/menutownhouse/menutownhouse.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenuhouseComponent,
+    MenuflatComponent,
+    MenutownhouseComponent
   ],
   imports: [
     BrowserModule,
