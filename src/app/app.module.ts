@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MenuhouseComponent } from './components/menuhouse/menuhouse.component';
 import { MenuflatComponent } from './components/menuflat/menuflat.component';
 import { MenutownhouseComponent } from './components/menutownhouse/menutownhouse.component';
+import { HouseItemComponent } from './components/house-item/house-item.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MenutownhouseComponent } from './components/menutownhouse/menutownhouse
     FooterComponent,
     MenuhouseComponent,
     MenuflatComponent,
-    MenutownhouseComponent
+    MenutownhouseComponent,
+    HouseItemComponent
   ],
   imports: [
     BrowserModule,
