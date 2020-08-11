@@ -12,6 +12,8 @@ import { MenuHouseComponent } from './components/menu-house/menu-house.component
 import { MenuFlatComponent } from './components/menu-flat/menu-flat.component';
 import { MenuTownhouseComponent } from './components/menu-townhouse/menu-townhouse.component';
 import { HouseItemComponent } from './components/house-item/house-item.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HouseItemDescriptionComponent } from './components/house-item-description/house-item-description.component';
 
 
 @NgModule({
@@ -23,12 +25,14 @@ import { HouseItemComponent } from './components/house-item/house-item.component
     MenuFlatComponent,
     MenuTownhouseComponent,
     HouseItemComponent,
+    HouseItemDescriptionComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

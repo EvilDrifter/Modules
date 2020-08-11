@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DbHouseService } from 'src/app/services/db-house.service';
+import { House } from 'src/app/models/house';
 
 @Component({
   selector: 'app-menu-house',
@@ -7,7 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuHouseComponent implements OnInit {
 
-  constructor() { }
+  private houses: Array<House>;
+
+  constructor(private houseService: DbHouseService) {
+    console.log(this.houseService.getHouses().subscribe(
+        x => {
+          this.houses = x;
+        },
+        e => console.log(e),
+        () => console.log('done')
+      )
+    );
+  }
 
   ngOnInit() {
   }
