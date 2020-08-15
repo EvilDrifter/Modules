@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'townhouse',
     component: MenuTownhouseComponent
+  },
+  {
+    path: 'items',
+    loadChildren: () => import('./menu/items/items.module').then(m => m.ItemsModule)
   }
 ];
 
