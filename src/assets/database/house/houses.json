@@ -1,0 +1,91 @@
+[{
+    "id": "83a79d87-c790-463b-91ec-1d4e28bd0557",
+    "city": "Dzerzhinsk",
+    "address": "2606 Blackbird Terrace",
+    "img": "http://dummyimage.com/315x296.jpg/cc0000/ffffff",
+    "description": "Microscopic examination of specimen from lower gastrointestinal tract and of stool, culture and sensitivity"
+  }, {
+    "id": "10a991a0-1bb2-48b1-84bc-1c999293c64c",
+    "city": "Živinice",
+    "address": "96325 Moland Pass",
+    "img": "http://dummyimage.com/281x298.jpg/cc0000/ffffff",
+    "description": "Bilateral repair of inguinal hernia, not otherwise specified"
+  }, {
+    "id": "debe3313-1991-4dd1-a969-f58a67b04843",
+    "city": "Tbilisskaya",
+    "address": "1 Eggendart Road",
+    "img": "http://dummyimage.com/299x318.jpg/cc0000/ffffff",
+    "description": "Vaccination against tularemia"
+  }, {
+    "id": "e06f9c71-fd54-4d84-a949-6e8e436c9272",
+    "city": "Ekasapta",
+    "address": "84 Stuart Lane",
+    "img": "http://dummyimage.com/331x325.jpg/ff4444/ffffff",
+    "description": "Extraction of milk from lactating breast"
+  }, {
+    "id": "d425d840-c86d-4c32-8cf3-c008fcfa9dc7",
+    "city": "Urbiztondo",
+    "address": "370 Mcguire Parkway",
+    "img": "http://dummyimage.com/263x282.jpg/ff4444/ffffff",
+    "description": "Vaccination against tuberculosis"
+  }, {
+    "id": "f597b7be-078e-4d58-a5ae-994b0ca2c379",
+    "city": "Mandalgovi",
+    "address": "43160 Myrtle Center",
+    "img": "http://dummyimage.com/284x340.jpg/dddddd/000000",
+    "description": "Biopsy of bone, unspecified site"
+  }, {
+    "id": "5eb6f802-c7db-4559-a7b2-65b3802e3b5f",
+    "city": "Salitral",
+    "address": "0 Bobwhite Parkway",
+    "img": "http://dummyimage.com/308x256.jpg/ff4444/ffffff",
+    "description": "Injection of therapeutic substance into bursa of hand"
+  }, {
+    "id": "d459c128-fd21-499a-be76-5e7b76a10926",
+    "city": "Prilep",
+    "address": "02 Brown Hill",
+    "img": "http://dummyimage.com/279x336.jpg/5fa2dd/ffffff",
+    "description": "Insertion of aqueous drainage device"
+  }, {
+    "id": "0709a0c6-23c0-4c49-bfa2-8b290027fa15",
+    "city": "Koson",
+    "address": "35096 Oxford Trail",
+    "img": "http://dummyimage.com/349x333.jpg/dddddd/000000",
+    "description": "Electrolysis and other epilation of skin"
+  }, {
+    "id": "1a87ee01-cf74-4906-b3e4-b1ab31e16f46",
+    "city": "Shuangyang",
+    "address": "6019 Eagan Circle",
+    "img": "http://dummyimage.com/273x302.jpg/ff4444/ffffff",
+    "description": "Closure of fistula of larynx"
+  }, {
+    "id": "1698f63b-afce-4def-be25-2740df5203b2",
+    "city": "Gadžin Han",
+    "address": "4 Monica Parkway",
+    "img": "http://dummyimage.com/343x325.jpg/ff4444/ffffff",
+    "description": "Microscopic examination of specimen from lymph node and of lymph, culture"
+  }, {
+    "id": "cebd2a1a-9021-4d64-af57-ee8d88226717",
+    "city": "Nahuo",
+    "address": "1397 Gina Lane",
+    "img": "http://dummyimage.com/303x317.jpg/cc0000/ffffff",
+    "description": "Microscopic examination of specimen from lower gastrointestinal tract and of stool, other microscopic examination"
+  }, {
+    "id": "956509f0-6994-40c2-ba46-fddb4906150b",
+    "city": "Lyakhovtsy",
+    "address": "165 Barnett Court",
+    "img": "http://dummyimage.com/327x282.jpg/5fa2dd/ffffff",
+    "description": "Excision of pilonidal cyst or sinus"
+  }, {
+    "id": "fa0a4c75-32c8-4c31-a526-6bab9bc3aad6",
+    "city": "Lattes",
+    "address": "16 Butternut Drive",
+    "img": "http://dummyimage.com/300x320.jpg/dddddd/000000",
+    "description": "Transposition of cranial and peripheral nerves"
+  }, {
+    "id": "8f73598b-1e59-49dc-9f7d-e1d7e8c41555",
+    "city": "Basicao Coastal",
+    "address": "97370 Barnett Drive",
+    "img": "http://dummyimage.com/334x317.jpg/cc0000/ffffff",
+    "description": "Auxiliary liver transplant"
+  }]
