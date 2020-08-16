@@ -1,19 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MenuHouseComponent } from './components/menu-house/menu-house.component';
 import { MenuFlatComponent } from './components/menu-flat/menu-flat.component';
 import { MenuTownhouseComponent } from './components/menu-townhouse/menu-townhouse.component';
-import { HouseItemDescriptionComponent } from './components/house-item-description/house-item-description.component';
 
 
 const routes: Routes = [
   {
     path: 'house',
-    component: MenuHouseComponent
-  },
-  {
-    path: 'house/:id',
-    component: HouseItemDescriptionComponent
+    loadChildren: () => import('./menu/house/house.module').then(m => m.HouseModule)
   },
   {
     path: 'flat',
