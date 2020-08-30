@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { House } from 'src/app/models/house';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-house-item',
@@ -8,9 +9,13 @@ import { House } from 'src/app/models/house';
 })
 export class HouseItemComponent implements OnInit {
   @Input() info: House;
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  open() {
+    this.router.navigate([`/house/${this.info.id}`]);
   }
 
 }
